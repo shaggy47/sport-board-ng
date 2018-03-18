@@ -17,7 +17,7 @@ module.exports = {
         chunkFilename: '[id].chunk.js'
   },
     resolve: {
-    extensions: ['.ts', '.js']
+    extensions: ['.ts', '.js'],
   },
   module: {
       rules: [
@@ -46,5 +46,6 @@ module.exports = {
     template: 'src/index.html'
   })
 
-  ]
+  ],
+  
 }
