@@ -1,0 +1,10 @@
+{
+    "dbHost":"localhost",
+    "dbName":"sportDb",
+    "dbPort":27017,
+    "serverPort":3000,
+    "adminUser":"vaibhavpfatkal@thedigitalgroup.com",
+    "adminPassword":"vaibhav123",
+    "dbUserName":"vaibhav",
+    "dbPassword" : "vaibhav123"
+}
