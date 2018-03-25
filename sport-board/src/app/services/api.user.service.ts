@@ -9,6 +9,9 @@ export class UserApiService {
     getUsers(){
         this.http.get("/api/getusers").subscribe((data)=>{
             console.log(data);
-        });
-    }
+        },(err)=>{
+            console.log("error occured");
+            console.log(err);
+        },
+    ()=>console.log("Completed"))};
 }
