@@ -16,6 +16,6 @@ import { LoginComponent } from './login/login.component';
     HttpClientModule
   ],
   providers: [UserApiService],
-  bootstrap: [AppComponent]
+  bootstrap: [LoginComponent]
 })
 export class AppModule { }
